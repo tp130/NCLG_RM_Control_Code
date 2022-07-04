@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11 tp, 111, LIC=NHYH9-4HEN2-JPSZQ-NE0SY-ZEPBF-SKHIL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  F:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\tp\Desktop\RM_NCLG - ¸±±¾\MDK-ARM\standard_robot.uvprojx
+Project File Date:  05/11/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil\ARM\ARMCC\Bin'
+Build target 'standard_robot'
+compiling chassis_behaviour.c...
+compiling gimbal_behaviour.c...
+compiling version.c...
+..\application\version.c(22): error:  #29: expected an expression
+  }
+..\application\version.c(22): error:  #65: expected a ";"
+  }
+..\application\version.c(22): warning:  #940-D: missing return statement at end of non-void function "Version_func" 
+  }
+..\application\version.c(8): warning:  #177-D: variable "send_num"  was declared but never referenced
+  	static int send_num = 0;
+..\application\version.c(10): warning:  #177-D: variable "yaw_angle_ref"  was declared but never referenced
+  	static float yaw_angle_ref, pitch_angle_ref;
+..\application\version.c(10): warning:  #177-D: variable "pitch_angle_ref"  was declared but never referenced
+  	static float yaw_angle_ref, pitch_angle_ref;
+..\application\version.c: 4 warnings, 2 errors
+compiling gimbal_task.c...
+compiling shoot.c...
+"standard_tpye_c\standard_tpye_c.axf" - 2 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.7.0.pack
+                Keil.STM32F4xx_DFP.2.7.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_standard_robot
+  F:\keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  F:\keil\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Target not created.
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
